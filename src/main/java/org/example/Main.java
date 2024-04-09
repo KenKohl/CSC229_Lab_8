@@ -39,8 +39,8 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        MyLists primeNumberList = new MyLists();//Singly Linked List that stores prime numbers
-        MyLists primeNumber3Digit = new MyLists();//Singly Linked List that stores prime numbers with 3 in it.
+        SinglyLinkedList primeNumberList = new MyLists();//Singly Linked List that stores prime numbers
+        SinglyLinkedList primeNumber3Digit = new MyLists();//Singly Linked List that stores prime numbers with 3 in it.
 
         int n = 100;//Upper bound of the numbers to check between.
 

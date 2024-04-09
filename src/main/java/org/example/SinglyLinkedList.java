@@ -19,4 +19,6 @@ public interface SinglyLinkedList {
     //Used for testing
     public int size();
 
+    public int addTogether();
+
 }

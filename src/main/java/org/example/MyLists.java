@@ -95,6 +95,7 @@ public class MyLists implements SinglyLinkedList{
     }
 
     //Method that adds the elements of a singly linked list together and returns the total.
+    @Override
     public int addTogether(){
         int sum = 0;
         Node current = head;
